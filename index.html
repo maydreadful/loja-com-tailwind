@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/src/styles.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Digital Store</title>
+</head>
+<body>
+
+    
+    <h1 class="text-4xl text-(--primary-color)font-semibold">Digital Store</h1>
+    <header class= "flex-col px-[108px] py-[38px]">
+        <div class="flex gap-1 itens-center justify-between">
+            <img src="assets/logo-digitalcollege.svg" alt="Logo da Digital">
+        </div>
+        <input type="text" placeholder="Pesquisar produto..." class="bg-(--light-gray3) py-2 px-3 rounded-lg ml-40 mr-10 bg-[url(assets/lupa.svg)] bg-no-repeat bg-right focus:placeholder-transparent w-[560px]"/>
+        <div>
+            <div>
+                <a href="#" class="bg-(--primary-color) text-white rounded-lg px-7 py3 font bold text-sm">Entrar</a>
+            </div>
+        </div>
+        <div class="relative">
+            <img src="assets/cart.svg" alt="imagem carrinho">
+            <div class="absolute bg-(--tertiary-color) font-bold text-xs rounded-full w-[18px] h-[18px] text-center bottom-3 left-3">
+
+            </div>
+        </div>
+        <nav class="pl-32">
+            <ul class="flex gap-6 text-(--dark-gray-2)">
+                <li class="flex gap-6 text-(--primary-color)"><a href="">Home</a></li>
+                <li><a href="">Produtos</a></li>
+                <li><a href="">Categorias</a></li>
+                <li><a href="">Meus pedidos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1 class="text-3xl font-bold underline">
+        Hello world!
+      </h1>
+</body>
+</html>

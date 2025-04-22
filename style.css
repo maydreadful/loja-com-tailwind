@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Pridi:wght@200;300;400;500;600;700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Special+Gothic&display=swap');
+
+:root{
+    --dark-gray: #1F1F1F;
+    --dark-gray2: #474747;
+    --dark-gray3: #666666;
+    --light-gray: #8F8F8F;
+    --light-gray2:#CCCCCC;
+    --light-gray3:#F5F5F5;
+    --white: #FFFF;
+    --primary-color: #C92071;
+    --secondary-color: #B5B6F2;
+    --tertiary-color: #991956;
+    --error-color:  #EE4266;
+    --sucess-color: #52CA76;
+    --warning-color: #F6AA1C;
+    --primary-g: 180 deg #C92071#EDABCA;
+    --second-g: 180deg #B5B6F2 #EFEFFF;
+
+}
+
+*{
+    font-family: "Pridi", serif;
+    box-sizing: border-box;
+}
